@@ -1,0 +1,29 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files
+*.csv
+*.tsv
+*.log
+*.h5
+*.pickle
+*.pkl
+*.DS_Store
+
+# Ignore virtual environment
+venv/
+env/
+.env/
+gptenv/
+
+# Ignore outputs (optional)
+*.out
+*.pyc
+*.pyo
+*.pth
+*.png
+__pycache__/
+src/
+
+# Skip solutions
+solutions/
