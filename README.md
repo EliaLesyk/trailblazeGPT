@@ -1,8 +1,8 @@
- # Building GPT Step-by-Step
+# 🌟 Welcome, LLM Trailblazers! Let's Build Your LLMs Ground Up 🌟
 
-This repository contains a series of Jupyter notebooks that guide you through the process of building a Generative Pre-trained Transformer (GPT) model from scratch. The tutorial is designed to be accessible to a wide audience, with some mathematical simplifications to enhance understanding.
+This repository is dedicated to all Trailblazers embarking on the journey to build Large Language Models from the ground up and apply them to their projects. Here you will find a series of Jupyter notebooks that guide you through the process of building a Generative Pre-trained Transformer model from scratch.
 
-## Repository Structure
+## 🌳 Repository Structure
 
 ```
 .
@@ -17,29 +17,22 @@ This repository contains a series of Jupyter notebooks that guide you through th
 └── requirements.txt
 ```
 
-## Notebook Flow
+## 🛠️ Notebooks and Flow
 
 The notebooks are designed to be completed in order, each building on the concepts introduced in the previous ones:
 
-1. [**Setup**](1_Setup.ipynb): Introduction to the project with a simple import of DistilGPT2 from Hugging Face to get a basic model running.
+| Notebook | Description | Open in Colab |
+| -------- | ----------- | ------------- |
+| 🏁 **Setup** | Introduction to the project, importing DistilGPT2 for a basic model. | [Open In Colab](https://colab.research.google.com/github/EliaLesyk/trailblazeGPT/blob/main/1_Setup.ipynb) |
+| ✂️ **Tokenization** | Overview of tokenization techniques and custom dataloader implementation. | [Open In Colab](https://colab.research.google.com/github/EliaLesyk/trailblazeGPT/blob/main/2_Tokenization.ipynb) |
+| 🧠 **Attention** | Deep dive into attention mechanisms, such as dot-product, scaled attention, and multi-head attention. | [Open In Colab](https://colab.research.google.com/github/EliaLesyk/trailblazeGPT/blob/main/3_Attention.ipynb) |
+| 🏗️ **GPT Architecture** | Build the core GPT model, including Multi-Head Attention, Layer Normalization, Feed-Forward Neural Network, and Residual Connections. | [Open In Colab](https://colab.research.google.com/github/EliaLesyk/trailblazeGPT/blob/main/4_GPT.ipynb) |
+| 🎓 **Training** | Train, evaluate, and experiment with hyperparameters for the GPT model. | [Open In Colab](https://colab.research.google.com/github/EliaLesyk/trailblazeGPT/blob/main/5_Training.ipynb) |
 
-2. [**Tokenization**](2_Tokenization.ipynb): Review of tokenization techniques and implementation of a custom dataloader.
 
-3. [**Attention**](3_Attention.ipynb): Deep dive into attention mechanisms, covering:
-   - Dot-product attention
-   - Scaled attention
-   - Attention masks
-   - Multi-head attention
+## 🎉 Get Started
 
-4. [**GPT Architecture**](4_GPT.ipynb): Building the core GPT model, including:
-   - Multi-Head Attention
-   - Layer Normalization
-   - Feed-Forward Neural Network
-   - Residual Connections
-
-5. [**Training**](5_Training.ipynb): Putting it all together - training, evaluating, and experimenting with hyperparameters.
-
-## How to Use This Repository
+Clone the repository and explore the notebooks to learn how to build and train your own LLMs!
 
 Each notebook contains cells marked with `TODO`. These are points where you're encouraged to implement key components of the GPT architecture, helping to reinforce your understanding of how the model works.
 
@@ -55,6 +48,12 @@ To get the most out of this tutorial:
 - Familiarity with neural network concepts
 - Jupyter Notebook environment
 
+## Acknowledgments
+
+This tutorial is designed to make understanding GPT accessible to a wider audience. While some mathematical concepts have been simplified, the core principles of the GPT architecture are preserved.
+
+Happy learning, and enjoy building your own GPT model!
+
 ## Contributions
 
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
@@ -63,32 +62,10 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```
-MIT License
 
-Copyright (c) 2024 Elina Lesyk
+## 🔗 Connect with Me
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+- [LinkedIn](https://www.linkedin.com/in/elina-lesyk/)
+- [X (Twitter)](https://x.com/elesyk)
+- [Website](https://elinalesyk.com/)
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-## Acknowledgments
-
-This tutorial is designed to make understanding GPT accessible to a wider audience. While some mathematical concepts have been simplified, the core principles of the GPT architecture are preserved.
-
-Happy learning, and enjoy building your own GPT model!
