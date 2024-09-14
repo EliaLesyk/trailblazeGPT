@@ -69,3 +69,40 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [X (Twitter)](https://x.com/elesyk)
 - [Website](https://elinalesyk.com/)
 
+
+## 📚 Foundational Papers
+
+To deepen your understanding of LLMs and related technologies, I can't but recommend exploring these foundational papers (each and every time finding something new!):
+
+These papers provide valuable insights into the development, scaling, and optimization of large language models and related AI technologies. 
+
+- **It All Starts Here**
+  - ["Attention Is All You Need" (2017)](https://arxiv.org/abs/1706.03762) - Introduces the Transformer architecture, the basis of GPT models.
+  - ["Improving Language Understanding by Generative Pre-Training" (2018)](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) - Describes the original GPT model and its benefits.
+
+- **Evolution of GPT Models**
+  - ["Language Models are Unsupervised Multitask Learners" (2019)](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) - Describes GPT-2.
+  - ["Language Models are Few-Shot Learners" (2020)](https://arxiv.org/abs/2005.14165) - Discusses GPT-3's capabilities.
+  - ["BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" (2019)](https://arxiv.org/abs/1810.04805) - Explores BERT's impact on the NLP field.
+
+- **Language Models and Scaling**
+  - [Scaling Laws for Neural Language Models](https://arxiv.org/pdf/2001.08361)
+  - [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/pdf/1909.08053)
+
+- **Instruction Fine-Tuning and Feedback Loops**
+  - [Training Language Models to Follow Instructions with Human Feedback](https://arxiv.org/pdf/2203.02155)
+  - ["InstructGPT: Training Language Models to Follow Instructions with Human Feedback" (2022)](https://arxiv.org/abs/2203.02155).
+  - ["LoRA: Low-Rank Adaptation of Large Language Models" (2021)](https://arxiv.org/abs/2106.09685) - Introduces a novel approach to fine-tuning large language models efficiently by adding trainable low-rank matrices to the existing weights.
+  - ["Training Compute-Optimal Large Language Models" (2022)](https://arxiv.org/abs/2203.15556) - Provides new insights on scaling laws for language models, suggesting that increasing data size and reducing model size can lead to better performance for a given computational budget.
+
+- **Retrieval of Dynamically Changing Knowledge**
+
+  - [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/pdf/2005.11401)
+
+- **Image Synthesis**
+
+  - [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/pdf/2112.10752)
+
+- **System Optimizations**
+
+  - [DeepSpeed: System Optimizations Enable Training Deep Learning Models with Over 100 Billion Parameters](https://dl.acm.org/doi/10.1145/3394486.3406703)
